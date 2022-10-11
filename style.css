@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400&family=Righteous&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/1747390.jpg);
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main  {
+    background-color: white;
+    max-width: 500px;
+    min-width: 100px;
+    margin: 15px auto;
+    padding: 30px 0px;
+    border-radius: 10px;
+    animation: flt 1.5s infinite;
+}
+
+#container {
+    display: flex;
+}
+
+.img {
+    position: absolute;
+    align-self: flex-end;
+    height: 400px;
+    left: 100px;
+    animation: flt 1.5s infinite;
+}
+
+img {
+    width: 200px;
+}
+
+@keyframes flt {
+    0%{
+        margin-top: 15px;
+    }
+    50%{
+        margin-top: 13px;
+    }
+    100%{
+        margin-top: 15px;
+    }
+}
+
+.conteudo{
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 16px;
+}
+
+h2 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 25px;
+    padding: 16px 30px;
+}
+
+p {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+
+
+#simple-table {
+    background-color: black;
+    max-width: 500px;
+    min-width: 50px;
+    margin: auto;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+th {
+    padding: 3px;
+    font-weight: bold;
+}
+
+.value {
+    text-align: center;
+}
+
